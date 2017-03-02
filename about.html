@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="robots" content="all,index,follow" />
+
+	<title>About - Tech Jalsa</title>
+	<meta name="description" content="Team Members" />
+	
+	<!-- Stylesheets /-->
+	<link rel="stylesheet" type="text/css" href="css/style.css" /> <!-- Main stylesheet /-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"> <!-- Grid framework /-->
+            <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/loader.css"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+<!--[if IE]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+
+<script src ="js/main.js"></script>
+<script>
+    jQuery(document).ready(function ($) {
+    $(window).load(function () {
+        setTimeout(function () {
+            $("#loading").fadeOut('slow', function () {
+            });
+        },200); // set the time here
+    });  
+});</script>
+<script>
+    $(document).keydown(function(event) {
+if (event.ctrlKey==true && (event.which == '61' || event.which == '107' || event.which == '173' || event.which == '109'  || event.which == '187'  || event.which == '189' || event.which == '65') ) {
+        event.preventDefault();
+     }
+    
+});
+
+$(window).bind('mousewheel DOMMouseScroll', function (event) {
+       if (event.ctrlKey == true) {
+       event.preventDefault();
+       }
+});</script>
+     <!-- Open Sans /-->
+   
+	
+
+</head>
+
+<body style="background-color:rgb(29,0,38);
+    overflow: hidden;">
+    <div id="l ading" style="position:fixed;"></div>
+    <div class="meny">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="About.html">About </a></li>
+				<li><a href="Events%20.html">Events</a></li>
+				<li><a href="Map.html">Map</a></li>
+			
+				
+			</ul>
+		</div>
+
+		<div class="meny-arrow"></div>
+        
+		<div class="contents">
+    
+    <div style=" overflow: hidden; float:right; width: 250px;"> 
+<iframe scrolling="no" src="nav/nav.html" style="border: 0px none; margin-right:0px; height:400px; margin-top: 2px; width: 240px;position:fixed;"> 
+</iframe> 
+</div>
+
+    
+    
+    
+    
+
+	<!-- SPEAKERS SECTION -->	
+	<section id="speakers">
+		<h3 style="color:rgb(231,203,39);font-size:300%">About</h3> <!-- Section Title -->
+		<div class="separator"></div>
+		<div class="container">
+			<div class="col-md-8 col-md-offset-2">
+				<!-- Section Description -->
+				<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>
+			
+			<!-- First Row of Speakers -->
+			<div class="row1">
+			
+				<!-- Speaker 1 -->
+				<div class="col-md-3">
+					<a href="#" class="member-profile">
+						<div class="unhover_img">
+						<img src="images/screen/R-S-Vyas.jpg" alt="" />
+						</div>
+						<div class="hover_img">
+						<img src="img/speaker-1-hover.png" alt="" />
+						</div>
+						<span>Director</span>
+						<h4><span>R S  </span> VYAS</h4>
+					</a>	
+					
+				</div>
+				
+				<!-- Speaker 2 -->
+				<div class="col-md-3">
+					<a href="#" class="member-profile">
+						<div class="unhover_img">
+						<img src="images/screen/Pankaj-Porwal_principal.jpg" alt="" />
+						</div>
+						<div class="hover_img">
+						<img src="img/speaker-2-hover.png" alt="" />
+						</div>
+						<span>Principal</span>
+						<h4><span>PANKAJ</span> PORWAL</h4>
+					</a>	
+					
+				</div>
+				
+				<!-- Speaker 3 -->
+				<div class="col-md-3">
+					<a href="#" class="member-profile">
+						<div class="unhover_img">
+						<img src="images/screen/sandeep.JPG" alt="" />
+						</div>
+						<div class="hover_img">
+						<img src="img/speaker-3-hover.png" alt="" />
+						</div>
+						<span>HOD OF CSE</span>
+						<h4><span>SANDEEP</span> UPADHYAY</h4>
+					</a>					
+									
+				</div>
+				
+				<!-- Speaker 4 -->
+				<div class="col-md-3">
+					<a href="#" class="member-profile">
+						<div class="unhover_img">
+						<img src="images/screen/gaur.JPG" alt="" />
+						</div>
+						<div class="hover_img">
+						<img src="img/speaker-4-hover.png" alt="" />
+						</div>
+						<span>CSE DEPARTMENT</span>
+						<h4><span>GAURAV</span> KUMAAT</h4>
+					</a>					
+										
+				</div>
+				
+			</div> <!-- End First Row -->
+			<div class="clear"></div>
+			
+			
+		</div>
+            </section></div>
+	<!-- //SPEAKERS SECTION -->	
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> <!-- Load jQuery -->
+
+	<!-- jQuery Code for the View All Button -->
+	<script>
+		$(document).ready(function(){
+		  $(".fadeIn").click(function(){
+			$("div.row2").fadeIn();
+			$("button.fadeIn").hide();
+		  });
+		});
+	</script>
+    <script src="js/meny.js"></script>
+		<script>
+			// Create an instance of Meny
+			var meny = Meny.create({
+				// The element that will be animated in from off screen
+				menuElement: document.querySelector( '.meny' ),
+
+				// The contents that gets pushed aside while Meny is active
+				contentsElement: document.querySelector( '.contents' ),
+
+				// [optional] The alignment of the menu (top/right/bottom/left)
+				position: Meny.getQuery().p || 'left',
+
+				// [optional] The height of the menu (when using top/bottom position)
+				height: 200,
+
+				// [optional] The width of the menu (when using left/right position)
+				width: 260,
+
+				// [optional] Distance from mouse (in pixels) when menu should open
+				threshold: 40,
+
+				// [optional] Use mouse movement to automatically open/close
+				mouse: true,
+
+				// [optional] Use touch swipe events to open/close
+				touch: true
+			});
+
+			// API Methods:
+			// meny.open();
+			// meny.close();
+			// meny.isOpen();
+
+			// Events:
+			// meny.addEventListener( 'open', function(){ console.log( 'open' ); } );
+			// meny.addEventListener( 'close', function(){ console.log( 'close' ); } );
+
+			// Embed an iframe if a URL is passed in
+			if( Meny.getQuery().u && Meny.getQuery().u.match( /^http/gi ) ) {
+				var contents = document.querySelector( '.contents' );
+				contents.style.padding = '0px';
+				contents.innerHTML = '<div class="cover"></div><iframe src="'+ Meny.getQuery().u +'" style="width: 100%; height: 100%; border: 0; position: absolute;"></iframe>';
+			}
+		</script>
+
+		<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+        
+	
+</body>
+</html>	
